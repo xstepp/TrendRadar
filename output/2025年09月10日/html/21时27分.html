@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 51</p><p>生成时间: 2025-09-10 21:27:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">苹果 库克 iphone ipad mac ios</td>
+                <td class="count">4</td>
+                <td class="percentage">7.84%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7548383827295473194/" target="_blank" class="news-link">iPhone 17选购指南</a> [9] <font color='grey'>- 21时27分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=iPhone17%E7%B3%BB%E5%88%97%E5%80%BC%E4%B8%8D%E5%80%BC%E5%BE%97%E4%B9%B0" target="_blank" class="news-link">iPhone17系列值不值得买</a> [12] <font color='grey'>- 21时27分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7548330587900087818/" target="_blank" class="news-link">郑州富士康赶工苹果17员工发声</a> [23] <font color='grey'>- 21时27分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3DiPhone17%E7%B3%BB%E5%88%97%E9%80%89%E8%B4%AD%E6%8C%87%E5%8D%97&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26flag%3D1%26realpos%3D30%26pos%3D31%26cate%3D5001%26band_rank%3D30%26q%3DiPhone17%25E7%25B3%25BB%25E5%2588%2597%25E9%2580%2589%25E8%25B4%25AD%25E6%258C%2587%25E5%258D%2597%26dgr%3D0%26stream_entry_id%3D31%26c_type%3D31%26lcate%3D5001%26filter_type%3Drealtimehot%26display_time%3D1757510256%26pre_seqid%3D175751025682509132944" target="_blank" class="news-link">iPhone17系列选购指南</a> [30] <font color='grey'>- 21时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国</td>
+                <td class="count">2</td>
+                <td class="percentage">3.92%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E8%91%A3%E5%86%9B%E5%90%8C%E7%BE%8E%E5%9B%BD%E9%98%B2%E9%83%A8%E9%95%BF%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26flag%3D1%26realpos%3D7%26pos%3D8%26cate%3D5001%26band_rank%3D7%26q%3D%2523%25E8%2591%25A3%25E5%2586%259B%25E5%2590%258C%25E7%25BE%258E%25E5%259B%25BD%25E9%2598%25B2%25E9%2583%25A8%25E9%2595%25BF%25E8%25A7%2586%25E9%25A2%2591%25E9%2580%259A%25E8%25AF%259D%2523%26dgr%3D0%26stream_entry_id%3D31%26c_type%3D31%26lcate%3D5001%26filter_type%3Drealtimehot%26display_time%3D1757510256%26pre_seqid%3D175751025682509132944" target="_blank" class="news-link">董军同美国防部长视频通话</a> [7] <font color='grey'>- 21时27分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2141430" target="_blank" class="news-link">美国8月PPI低于预期 三大期指集体走高 | 今夜看点</a> [12] <font color='grey'>- 21时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">马斯克 特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">1.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2141335" target="_blank" class="news-link">甲骨文埃里森财富单日暴增700亿美元，逼近马斯克首富宝座</a> [10] <font color='grey'>- 21时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">国产 中国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7548411078120574490/" target="_blank" class="news-link">欧盟为何突然把制裁的矛头对准中国</a> [15] <font color='grey'>- 21时27分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">1.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BB%A7%E8%B7%A8%E7%95%8C%E9%80%A0%E8%BD%A6%E5%90%8E+%E8%BF%BD%E8%A7%85%E7%A7%91%E6%8A%80%E8%BF%9B%E5%86%9B%E5%A4%A9%E6%96%87%E9%A2%86%E5%9F%9F" target="_blank" class="news-link">继跨界造车后 追觅科技进军天文领域</a> [9] <font color='grey'>- 21时27分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
