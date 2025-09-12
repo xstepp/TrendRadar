@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 39</p><p>生成时间: 2025-09-12 17:19:34</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">5.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%87%BA%E5%8F%A3%E9%87%8F%E5%8D%A0%E5%85%A8%E5%9B%BD97%25%E7%9A%84%E5%9B%BD%E4%BA%A7%E9%AA%84%E5%82%B2%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26flag%3D1%26cate%3D5001%26lcate%3D5001%26stream_entry_id%3D31%26q%3D%2523%25E5%2587%25BA%25E5%258F%25A3%25E9%2587%258F%25E5%258D%25A0%25E5%2585%25A8%25E5%259B%25BD97%2525%25E7%259A%2584%25E5%259B%25BD%25E4%25BA%25A7%25E9%25AA%2584%25E5%2582%25B2%2523%26dgr%3D0%26pos%3D21%26filter_type%3Drealtimehot%26band_rank%3D20%26realpos%3D20%26c_type%3D31%26display_time%3D1757668675%26pre_seqid%3D17576686750980256502481" target="_blank" class="news-link">出口量占全国97%的国产骄傲</a> [20] <font color='grey'>- 17时19分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E4%B8%AD%E5%9B%BD%E8%88%AA%E6%AF%8D%E5%9C%A8%E6%9C%89%E5%85%B3%E6%B5%B7%E5%9F%9F%E6%B4%BB%E5%8A%A8%E5%AE%8C%E5%85%A8%E5%90%88%E6%B3%95%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26flag%3D1%26cate%3D5001%26lcate%3D5001%26stream_entry_id%3D31%26q%3D%2523%25E4%25B8%25AD%25E5%259B%25BD%25E8%2588%25AA%25E6%25AF%258D%25E5%259C%25A8%25E6%259C%2589%25E5%2585%25B3%25E6%25B5%25B7%25E5%259F%259F%25E6%25B4%25BB%25E5%258A%25A8%25E5%25AE%258C%25E5%2585%25A8%25E5%2590%2588%25E6%25B3%2595%2523%26dgr%3D0%26pos%3D29%26filter_type%3Drealtimehot%26band_rank%3D28%26realpos%3D28%26c_type%3D31%26display_time%3D1757668675%26pre_seqid%3D17576686750980256502481" target="_blank" class="news-link">中国航母在有关海域活动完全合法</a> [28] <font color='grey'>- 17时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">苹果 库克 iphone ipad mac ios</td>
+                <td class="count">1</td>
+                <td class="percentage">2.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=iPhone17%E7%B3%BB%E5%88%97%E9%80%89%E8%B4%AD%E6%8C%87%E5%8D%97" target="_blank" class="news-link">iPhone17系列选购指南</a> [14] <font color='grey'>- 17时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国</td>
+                <td class="count">1</td>
+                <td class="percentage">2.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mag1exDZUQ" target="_blank" class="news-link">又拿签证作威胁，美国警告外籍网民就柯克遇刺“管住嘴”</a> [6] <font color='grey'>- 17时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">芯片 光刻机</td>
+                <td class="count">1</td>
+                <td class="percentage">2.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2143620" target="_blank" class="news-link">【每日收评】三大指数冲高回落全线收跌，全市场超3300股飘绿，存储芯片概念逆势活跃</a> [12] <font color='grey'>- 17时19分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
