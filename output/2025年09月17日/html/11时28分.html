@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 40</p><p>生成时间: 2025-09-17 11:28:25</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">7.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E8%A6%81%E6%B1%82%E7%9B%9F%E5%8F%8B%E5%AF%B9%E4%B8%AD%E5%9B%BD%E5%8A%A0%E5%BE%81%E5%85%B3%E7%A8%8E+%E6%97%A5%E6%9C%AC%E6%8B%92%E7%BB%9D" target="_blank" class="news-link">美要求盟友对中国加征关税 日本拒绝</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时28分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8miWiW0Th7L" target="_blank" class="news-link">启程访华，韩外长：中国非常重要</a> [8] <font color='grey'>- 11时28分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7550855041964314138/" target="_blank" class="news-link">日本为何拒绝特朗普给中国加税要求</a> [21] <font color='grey'>- 11时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">苹果 库克 iphone ipad mac ios</td>
+                <td class="count">2</td>
+                <td class="percentage">5.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2239211" target="_blank" class="news-link">苹果安卓同软件使用测评</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时28分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345066&amp;amp;topic_name=%E6%88%B7%E5%9C%A3%E8%A2%AB%E5%B0%81%2C%E8%8B%B9%E6%9E%9C%E6%88%98%E5%A3%AB%E8%BD%B0%E7%84%B6%E5%80%92%E5%9C%B0" target="_blank" class="news-link">户圣被封,苹果战士轰然倒地</a> [8] <font color='grey'>- 11时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                <td class="count">1</td>
+                <td class="percentage">2.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1951390781538530224" target="_blank" class="news-link">鸿蒙智行首款旅行车享界 S9T 售价 30.98 万起，试水旅行车市场能否成功？值不值得入手？</a> [6] <font color='grey'>- 11时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">流浪地球 郭帆 三体 刘慈欣</td>
+                <td class="count">1</td>
+                <td class="percentage">2.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1951232184150107925" target="_blank" class="news-link">9 月 16 日，人民日报发表刘慈欣撰文《大时代推动是〈三体〉成功的最深层原因》，这意味着什么？</a> [18] <font color='grey'>- 11时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">京东 刘强东</td>
+                <td class="count">1</td>
+                <td class="percentage">2.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7550702270720426047/" target="_blank" class="news-link">刘强东做的黄狗猪头肉是啥</a> [16] <font color='grey'>- 11时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">汽车 自动驾驶</td>
+                <td class="count">1</td>
+                <td class="percentage">2.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7550866723444936243/" target="_blank" class="news-link">豪华汽车品牌反击来了</a> [13] <font color='grey'>- 11时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">美国</td>
+                <td class="count">1</td>
+                <td class="percentage">2.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3755706" target="_blank" class="news-link">美国8月零售销售环比增0.6%超预期，实际零售销售连续11个月增长</a> [10] <font color='grey'>- 11时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
