@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 78</p><p>生成时间: 2025-09-22 11:07:45</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">小米 雷军 xiaomi</td>
+                <td class="count">4</td>
+                <td class="percentage">5.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E5%B0%8F%E7%B1%B317&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26realpos%3D5%26q%3D%25E5%25B0%258F%25E7%25B1%25B317%26dgr%3D0%26flag%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26cate%3D5001%26band_rank%3D5%26lcate%3D5001%26pos%3D5%26display_time%3D1758510425%26pre_seqid%3D17585104249750235445198" target="_blank" class="news-link">小米17</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时07分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2244886" target="_blank" class="news-link">小米17系列25日正式发布</a> [8] <font color='grey'>- 11时07分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E5%B0%8F%E7%B1%B317%E7%B3%BB%E5%88%97%E5%8F%91%E5%B8%83%E4%BC%9A%E5%AE%98%E5%AE%A3&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26realpos%3D25%26q%3D%25E5%25B0%258F%25E7%25B1%25B317%25E7%25B3%25BB%25E5%2588%2597%25E5%258F%2591%25E5%25B8%2583%25E4%25BC%259A%25E5%25AE%2598%25E5%25AE%25A3%26dgr%3D0%26flag%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26cate%3D5001%26band_rank%3D25%26lcate%3D5001%26pos%3D26%26display_time%3D1758510425%26pre_seqid%3D17585104249750235445198" target="_blank" class="news-link">小米17系列发布会官宣</a> [25] <font color='grey'>- 11时07分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%B0%8F%E7%B1%B317%E9%A2%9C%E5%80%BC%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26realpos%3D27%26q%3D%2523%25E5%25B0%258F%25E7%25B1%25B317%25E9%25A2%259C%25E5%2580%25BC%2523%26dgr%3D0%26flag%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26cate%3D5001%26band_rank%3D27%26lcate%3D5001%26pos%3D28%26display_time%3D1758510425%26pre_seqid%3D17585104249750235445198" target="_blank" class="news-link">小米17颜值</a> [27] <font color='grey'>- 11时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">3.85%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1953214270612444852" target="_blank" class="news-link">2025 乒乓球亚锦赛团体赛中国队参赛名单出炉，你最期待哪位选手的发挥？</a> [17] <font color='grey'>- 11时07分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1953069349918176907" target="_blank" class="news-link">始祖鸟外网声明提及正与涉事本地艺术家及中国团队沟通，被指甩锅，其回应是否妥当？怎么做才能挽回品牌声誉？</a> [18] <font color='grey'>- 11时07分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%B9%BF%E5%91%8A%E5%8D%8F%E4%BC%9A%E8%AF%84%E7%83%9F%E8%8A%B1%E2%80%9C%E7%82%B8%E5%B1%B1%E2%80%9D%E4%BA%8B%E4%BB%B6" target="_blank" class="news-link">中国广告协会评烟花“炸山”事件</a> [25] <font color='grey'>- 11时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">比亚迪 王传福</td>
+                <td class="count">2</td>
+                <td class="percentage">2.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1953237725395260332" target="_blank" class="news-link">如何看待巴菲特清仓比亚迪？原因是什么？</a> [8] <font color='grey'>- 11时07分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%AF%94%E4%BA%9A%E8%BF%AA%E6%9D%8E%E4%BA%91%E9%A3%9E%E5%9B%9E%E5%BA%94%E5%B7%B4%E8%8F%B2%E7%89%B9%E6%B8%85%E4%BB%93" target="_blank" class="news-link">比亚迪李云飞回应巴菲特清仓</a> [24] <font color='grey'>- 11时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">马斯克 特斯拉</td>
+                <td class="count">2</td>
+                <td class="percentage">2.56%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mqiyPbQeCP" target="_blank" class="news-link">冰释前嫌？闹掰3个多月后，特朗普和马斯克同框握手交谈(图)</a> [6] <font color='grey'>- 11时07分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2151355" target="_blank" class="news-link">关系缓和新迹象？马斯克与特朗普闹掰后再同框 现场图曝光</a> [10] <font color='grey'>- 11时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                <td class="count">1</td>
+                <td class="percentage">1.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%8D%8E%E4%B8%BA%E6%89%8B%E8%A1%A8%E8%B6%85%E9%95%BF%E9%95%BF%E9%95%BF%E7%BB%AD%E8%88%AA%E7%AA%81%E7%A0%B421%E5%A4%A9%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26realpos%3D29%26q%3D%2523%25E5%258D%258E%25E4%25B8%25BA%25E6%2589%258B%25E8%25A1%25A8%25E8%25B6%2585%25E9%2595%25BF%25E9%2595%25BF%25E9%2595%25BF%25E7%25BB%25AD%25E8%2588%25AA%25E7%25AA%2581%25E7%25A0%25B421%25E5%25A4%25A9%2523%26dgr%3D0%26flag%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26cate%3D5001%26band_rank%3D29%26lcate%3D5001%26pos%3D30%26display_time%3D1758510425%26pre_seqid%3D17585104249750235445198" target="_blank" class="news-link">华为手表超长长长续航突破21天</a> [29] <font color='grey'>- 11时07分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">京东 刘强东</td>
+                <td class="count">1</td>
+                <td class="percentage">1.28%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%88%98%E5%BC%BA%E4%B8%9C10%E5%B9%B41%E5%85%83%E5%B9%B4%E8%96%AA%E7%BA%A6%E5%AE%9A%E5%88%B0%E6%9C%9F%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26realpos%3D19%26q%3D%2523%25E5%2588%2598%25E5%25BC%25BA%25E4%25B8%259C10%25E5%25B9%25B41%25E5%2585%2583%25E5%25B9%25B4%25E8%2596%25AA%25E7%25BA%25A6%25E5%25AE%259A%25E5%2588%25B0%25E6%259C%259F%2523%26dgr%3D0%26flag%3D1%26filter_type%3Drealtimehot%26c_type%3D31%26cate%3D5001%26band_rank%3D19%26lcate%3D5001%26pos%3D20%26display_time%3D1758510425%26pre_seqid%3D17585104249750235445198" target="_blank" class="news-link">刘强东10年1元年薪约定到期</a> [19] <font color='grey'>- 11时07分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
