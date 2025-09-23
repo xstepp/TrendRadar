@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 84</p><p>生成时间: 2025-09-23 09:25:34</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国</td>
+                <td class="count">5</td>
+                <td class="percentage">5.95%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8msI9yqefWe" target="_blank" class="news-link">美国会议员“罕见访华”传递三个信号</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%AE%89%E7%90%86%E4%BC%9A%E4%BA%94%E5%B8%B8%E4%BB%85%E7%BE%8E%E5%9B%BD%E6%9C%AA%E6%89%BF%E8%AE%A4%E5%B7%B4%E5%8B%92%E6%96%AF%E5%9D%A6%E5%9B%BD" target="_blank" class="news-link">安理会五常仅美国未承认巴勒斯坦国</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mrsLNi8ZBu" target="_blank" class="news-link">安理会五常仅美国未承认巴勒斯坦国</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8msBPqzD20Q" target="_blank" class="news-link">胡锡进：英法带头与华盛顿对抗，美国真与世界逆行了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8mrsIu6ao3H" target="_blank" class="news-link">委内瑞拉外长谴责美国在加勒比海军事部署</a> [8] <font color='grey'>- 09时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                <td class="count">3</td>
+                <td class="percentage">3.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756056" target="_blank" class="news-link">英伟达最大手笔投资承诺！砸1000亿美元助OpenAI建10GW数据中心</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756068" target="_blank" class="news-link">完美闭环：OpenAI买云→甲骨文买卡→英伟达再投资OpenAI</a> [9] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E6%8B%9F%E5%90%91OpenAI%E6%8A%95%E8%B5%841000%E4%BA%BF%E7%BE%8E%E5%85%83" target="_blank" class="news-link">英伟达拟向OpenAI投资1000亿美元</a> [15] <font color='grey'>- 09时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">3.57%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E8%AE%A2%E5%8D%95%E8%87%B3%E4%BB%8A%E4%B8%BA%E9%9B%B6+%E7%BE%8E%E5%9B%BD%E8%B1%86%E5%86%9C%E6%84%9F%E5%8F%97%E7%97%9B%E8%8B%A6" target="_blank" class="news-link">中国订单至今为零 美国豆农感受痛苦</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7553059929263705609/" target="_blank" class="news-link">波兰关闭中欧班列口岸后中国的应对</a> [14] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7553058667277340214/" target="_blank" class="news-link">欧美为何难寻中国稀土替代品</a> [20] <font color='grey'>- 09时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">马斯克 特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">1.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2152698" target="_blank" class="news-link">【数读IPO】特斯拉朋友圈“小伙伴”今日上市</a> [13] <font color='grey'>- 09时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">苹果 库克 iphone ipad mac ios</td>
+                <td class="count">1</td>
+                <td class="percentage">1.19%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2152623" target="_blank" class="news-link">iPhone 17掀起换机潮 韦德布什大幅上调苹果目标价至310美元</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
