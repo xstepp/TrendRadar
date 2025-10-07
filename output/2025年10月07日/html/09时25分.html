@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 90</p><p>生成时间: 2025-10-07 09:25:42</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">AMD</td>
+                <td class="count">3</td>
+                <td class="percentage">3.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756717" target="_blank" class="news-link">AMD携手OpenAI力撑芯片股，标普连涨七日，日法长债重挫，比特币黄金同创新高</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AMD%E4%B8%BA%E4%BD%95%E8%82%A1%E4%BB%B7%E5%A4%A7%E6%B6%A8" target="_blank" class="news-link">AMD为何股价大涨</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2162946" target="_blank" class="news-link">美股三大期指盘前集体走高 AMD股价暴涨35% | 今夜看点</a> [13] <font color='grey'>- 09时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">3.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2261552" target="_blank" class="news-link">全世界都知道中国人放假了</a> [11] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7557855687473168430/" target="_blank" class="news-link">联合国人权理事会通过中国主提决议</a> [19] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E5%AE%B6%E6%9C%89%E6%9C%9B%E5%BE%97%E8%AF%BA%E5%A5%96%E5%90%97" target="_blank" class="news-link">中国科学家有望得诺奖吗</a> [28] <font color='grey'>- 09时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国</td>
+                <td class="count">3</td>
+                <td class="percentage">3.33%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1958439336900036329" target="_blank" class="news-link">美国百万富豪在南非组队带枪狩猎，被 1.3 吨非洲水牛背后偷袭身亡，如何看待此事？</a> <font color='red'><strong>[2]</strong></font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8nFXndsmEqt" target="_blank" class="news-link">美国威胁提供“战斧”导弹，俄乌冲突会扩大吗？</a> [6] <font color='grey'>- 09时25分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7557956214899097663/" target="_blank" class="news-link">卢拉要求美国撤销对巴西征收40%关税</a> [23] <font color='grey'>- 09时25分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">1.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756727" target="_blank" class="news-link">OpenAI开发者大会：ChatGPT要做操作系统，开放第三方SDK，8分钟构建智能体</a> [10] <font color='grey'>- 09时25分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
