@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 95</p><p>生成时间: 2025-10-13 09:40:26</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">8</td>
+                <td class="percentage">8.42%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7560501650729733674/" target="_blank" class="news-link">特朗普释放信号：愿与中国达成协议</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8nPX08vMcSK" target="_blank" class="news-link">关于中国，特朗普和万斯嘴软了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8nPWQZQxwHl" target="_blank" class="news-link">中国这两个邻国，大打出手了</a> [7] <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%9B%E5%BC%B9%E7%90%B4%EF%BC%9A%E4%B8%AD%E5%9B%BD%E8%BF%99%E4%B8%A4%E4%B8%AA%E9%82%BB%E5%9B%BD%E5%A4%A7%E6%89%93%E5%87%BA%E6%89%8B%E4%BA%86" target="_blank" class="news-link">牛弹琴：中国这两个邻国大打出手了</a> [13] <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2166821" target="_blank" class="news-link">WPS登上热搜 凸显国产办公软件技术</a> [13] <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E4%B8%AD%E5%9B%BD%E7%9F%AD%E9%81%93%E9%98%9F2000%E7%B1%B3%E6%B7%B7%E5%90%88%E6%8E%A5%E5%8A%9B%E9%87%91%E7%89%8C%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D24%26stream_entry_id%3D31%26lcate%3D5001%26flag%3D0%26filter_type%3Drealtimehot%26dgr%3D0%26c_type%3D31%26q%3D%2523%25E4%25B8%25AD%25E5%259B%25BD%25E7%259F%25AD%25E9%2581%2593%25E9%2598%259F2000%25E7%25B1%25B3%25E6%25B7%25B7%25E5%2590%2588%25E6%258E%25A5%25E5%258A%259B%25E9%2587%2591%25E7%2589%258C%2523%26pos%3D25%26cate%3D5001%26band_rank%3D24%26display_time%3D1760319574%26pre_seqid%3D176031957459603722910137" target="_blank" class="news-link">中国短道队2000米混合接力金牌</a> [24] <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7560479077866409513/" target="_blank" class="news-link">中国海警公布菲船只侵闯铁线礁视频</a> [27] <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9C%AC%E5%B8%81%E4%BA%92%E6%8D%A2%E5%AF%B9%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E6%9C%89%E4%BD%95%E4%BD%9C%E7%94%A8%EF%BC%9F" target="_blank" class="news-link">本币互换对中国经济有何作用？</a> [30] <font color='grey'>- 09时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">科技</td>
+                <td class="count">2</td>
+                <td class="percentage">2.11%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2166935" target="_blank" class="news-link">【早报】美方威胁对华加征关税，商务部回应；闻泰科技重要子公司资产被冻结</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2166854" target="_blank" class="news-link">闻泰科技：对安世半导体个别外籍管理层以“合规”为名、行夺权之实的行为予以谴责</a> [9] <font color='grey'>- 09时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">流浪地球 郭帆 三体 刘慈欣</td>
+                <td class="count">1</td>
+                <td class="percentage">1.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2267658" target="_blank" class="news-link">1000人复刻三体人列计算机</a> [27] <font color='grey'>- 09时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">小米 雷军 xiaomi</td>
+                <td class="count">1</td>
+                <td class="percentage">1.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%88%90%E9%83%BD%E5%A4%A9%E5%BA%9C%E5%A4%A7%E9%81%93%E5%B0%8F%E7%B1%B3%E8%87%AA%E7%87%83%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D11%26stream_entry_id%3D31%26lcate%3D5001%26flag%3D1%26filter_type%3Drealtimehot%26dgr%3D0%26c_type%3D31%26q%3D%2523%25E6%2588%2590%25E9%2583%25BD%25E5%25A4%25A9%25E5%25BA%259C%25E5%25A4%25A7%25E9%2581%2593%25E5%25B0%258F%25E7%25B1%25B3%25E8%2587%25AA%25E7%2587%2583%2523%26pos%3D12%26cate%3D5001%26band_rank%3D11%26display_time%3D1760319574%26pre_seqid%3D176031957459603722910137" target="_blank" class="news-link">成都天府大道小米自燃</a> [11] <font color='grey'>- 09时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">微软 Microsoft</td>
+                <td class="count">1</td>
+                <td class="percentage">1.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1959593353080471767" target="_blank" class="news-link">微软 Win11 装机 OOBE 环节强制要求连接互联网并登录微软账户，此举有何目的？</a> [10] <font color='grey'>- 09时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9B%9D%E5%85%89%EF%BC%81%E6%9E%AA%E6%89%8B%E7%94%A8AI%E4%B8%80%E5%A4%A9%E4%BB%A3%E5%86%9930%E7%AF%87%E8%AE%BA%E6%96%87" target="_blank" class="news-link">曝光！枪手用AI一天代写30篇论文</a> [10] <font color='grey'>- 09时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">美国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.05%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7560490774882684442/" target="_blank" class="news-link">唐驳虎：美国紧急给关税战灭火</a> [8] <font color='grey'>- 09时40分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
