@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 24</p><p>生成时间: 2025-10-16 15:39:43</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">京东 刘强东</td>
+                <td class="count">1</td>
+                <td class="percentage">4.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31791325" target="_blank" class="news-link">京东宣布全国25城试点取消骑手超时罚款，三大外卖平台已全部推行</a> [16] <font color='grey'>- 15时39分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">手机</td>
+                <td class="count">1</td>
+                <td class="percentage">4.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E9%99%88%E5%93%B2%E8%BF%9C%E6%96%B0%E6%89%8B%E6%9C%BA%E6%91%94%E4%BA%86%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D29%26lcate%3D5001%26cate%3D5001%26band_rank%3D29%26q%3D%2523%25E9%2599%2588%25E5%2593%25B2%25E8%25BF%259C%25E6%2596%25B0%25E6%2589%258B%25E6%259C%25BA%25E6%2591%2594%25E4%25BA%2586%2523%26dgr%3D0%26pos%3D30%26stream_entry_id%3D31%26filter_type%3Drealtimehot%26flag%3D1%26c_type%3D31%26display_time%3D1760600335%26pre_seqid%3D17606003356400067178" target="_blank" class="news-link">陈哲远新手机摔了</a> [29] <font color='grey'>- 15时39分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">国产 中国</td>
+                <td class="count">1</td>
+                <td class="percentage">4.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1961896418143859443" target="_blank" class="news-link">2025 乒乓球亚锦赛，男团决赛，国乒男团 3 比 0 中国香港队，如何评价本场比赛？</a> [12] <font color='grey'>- 15时39分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">4.17%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%A4%A7%E5%9B%BD%E7%B2%AE%E4%BB%93%E7%9A%84%E7%A7%91%E6%8A%80%E5%AF%86%E7%A0%81%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26realpos%3D20%26lcate%3D5001%26cate%3D5001%26band_rank%3D20%26q%3D%2523%25E5%25A4%25A7%25E5%259B%25BD%25E7%25B2%25AE%25E4%25BB%2593%25E7%259A%2584%25E7%25A7%2591%25E6%258A%2580%25E5%25AF%2586%25E7%25A0%2581%2523%26dgr%3D0%26pos%3D21%26stream_entry_id%3D31%26filter_type%3Drealtimehot%26flag%3D1%26c_type%3D31%26display_time%3D1760600335%26pre_seqid%3D17606003356400067178" target="_blank" class="news-link">大国粮仓的科技密码</a> [20] <font color='grey'>- 15时39分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
