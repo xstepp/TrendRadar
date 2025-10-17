@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 53</p><p>生成时间: 2025-10-17 11:34:44</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国</td>
+                <td class="count">3</td>
+                <td class="percentage">5.66%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3757349" target="_blank" class="news-link">“次贷危机”还是“过度反应”？美国小银行“暴雷”，市场“先卖再说”</a> [10] <font color='grey'>- 11时34分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7561859739697840182/" target="_blank" class="news-link">美国一储藏约816吨大豆粮仓倒塌</a> [24] <font color='grey'>- 11时34分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7561449333905276979/" target="_blank" class="news-link">美国2025财年预算赤字下降410亿美元</a> [28] <font color='grey'>- 11时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">3.77%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8nWAOdZZwEy" target="_blank" class="news-link">美农业部长：中国停止从美采购大豆，农民压力巨大</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时34分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E7%BA%A2%E6%98%9F%E7%85%A7%E8%80%80%E4%B8%AD%E5%9B%BD%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26q%3D%2523%25E7%25BA%25A2%25E6%2598%259F%25E7%2585%25A7%25E8%2580%2580%25E4%25B8%25AD%25E5%259B%25BD%2523%26dgr%3D0%26stream_entry_id%3D31%26realpos%3D3%26band_rank%3D3%26lcate%3D5001%26flag%3D0%26pos%3D2%26filter_type%3Drealtimehot%26cate%3D5001%26c_type%3D31%26display_time%3D1760672077%26pre_seqid%3D17606720776120055142" target="_blank" class="news-link">红星照耀中国</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">流浪地球 郭帆 三体 刘慈欣</td>
+                <td class="count">1</td>
+                <td class="percentage">1.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1961398675919037176" target="_blank" class="news-link">如何看待刘慈欣点评《三体》电视剧改编，对腾讯版和网飞版都很满意？你对《三体》更多的影视化作品有何期待？</a> [10] <font color='grey'>- 11时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">汽车 自动驾驶</td>
+                <td class="count">1</td>
+                <td class="percentage">1.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2272799" target="_blank" class="news-link">新能源汽车火灾事故企业报告制度</a> [10] <font color='grey'>- 11时34分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">1.89%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7561729203423543339/" target="_blank" class="news-link">一组数据看我国科技跑出新成绩</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时34分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
