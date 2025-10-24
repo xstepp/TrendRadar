@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 51</p><p>生成时间: 2025-10-24 20:43:18</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">5</td>
+                <td class="percentage">9.8%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%96%9B%E4%B9%8B%E8%B0%A6%E5%91%A8%E6%B7%B1%E5%9D%90%E9%95%87%E4%B8%AD%E5%9B%BD%E5%94%B1%E5%B0%86" target="_blank" class="news-link">薛之谦周深坐镇中国唱将</a> [17] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E9%99%88%E9%9C%87%E7%A7%B0%E4%B8%AD%E5%9B%BD%E8%BE%85%E5%8A%A9%E9%A9%BE%E9%A9%B6%E6%97%A0%E9%9C%80%E5%AF%B9%E6%A0%87%E5%9B%BD%E5%A4%96%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26flag%3D1%26realpos%3D19%26pos%3D19%26band_rank%3D19%26filter_type%3Drealtimehot%26c_type%3D31%26q%3D%2523%25E9%2599%2588%25E9%259C%2587%25E7%25A7%25B0%25E4%25B8%25AD%25E5%259B%25BD%25E8%25BE%2585%25E5%258A%25A9%25E9%25A9%25BE%25E9%25A9%25B6%25E6%2597%25A0%25E9%259C%2580%25E5%25AF%25B9%25E6%25A0%2587%25E5%259B%25BD%25E5%25A4%2596%2523%26lcate%3D5001%26dgr%3D0%26cate%3D5001%26display_time%3D1761309568%26pre_seqid%3D17613095688370309378127" target="_blank" class="news-link">陈震称中国辅助驾驶无需对标国外</a> [19] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%E7%BE%8E%E6%80%BB%E7%BB%9F%E6%88%96%E7%A6%81%E6%AD%A2%E4%B8%AD%E5%9B%BD%E7%94%A8%E6%AD%A3%E7%89%88%E7%BE%8E%E8%BD%AF%E4%BB%B6&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26stream_entry_id%3D31%26flag%3D1%26realpos%3D26%26pos%3D26%26band_rank%3D26%26filter_type%3Drealtimehot%26c_type%3D31%26q%3D%25E7%25BE%258E%25E6%2580%25BB%25E7%25BB%259F%25E6%2588%2596%25E7%25A6%2581%25E6%25AD%25A2%25E4%25B8%25AD%25E5%259B%25BD%25E7%2594%25A8%25E6%25AD%25A3%25E7%2589%2588%25E7%25BE%258E%25E8%25BD%25AF%25E4%25BB%25B6%26lcate%3D5001%26dgr%3D0%26cate%3D5001%26display_time%3D1761309568%26pre_seqid%3D17613095688370309378127" target="_blank" class="news-link">美总统或禁止中国用正版美软件</a> [26] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7563595432329936935/" target="_blank" class="news-link">外交部：中国始终是全球发展的动力源</a> [28] <font color='grey'>- 20时43分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7564708282242174483/" target="_blank" class="news-link">加拿大为何突然想跟中国建战略关系</a> [29] <font color='grey'>- 20时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">手机</td>
+                <td class="count">1</td>
+                <td class="percentage">1.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2179794" target="_blank" class="news-link">教育部：严禁将手机等电子产品带进课堂</a> [13] <font color='grey'>- 20时43分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国</td>
+                <td class="count">1</td>
+                <td class="percentage">1.96%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8niaxqtrkUT" target="_blank" class="news-link">这则广告，让美国总统生气了</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 20时43分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
