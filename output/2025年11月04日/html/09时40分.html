@@ -1,0 +1,127 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 98</p><p>生成时间: 2025-11-04 09:40:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国</td>
+                <td class="count">5</td>
+                <td class="percentage">5.1%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8nzxse7WPpn" target="_blank" class="news-link">集结大量兵力，威胁地面进攻，美国真要对委内瑞拉动武？</a> [7] <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3758584" target="_blank" class="news-link">美国10月ISM制造业PMI连续八个月萎缩，需求和就业疲软，通胀降温</a> [9] <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8nzso55OArd" target="_blank" class="news-link">台军报告承认军购被美国坑了</a> [12] <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7568520825075138596/" target="_blank" class="news-link">美政府停摆对美国航空业影响几何</a> [14] <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7568650788034055686/" target="_blank" class="news-link">记者：高市称想见金正恩是讨好美国</a> [15] <font color='grey'>- 09时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">4.08%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2293684" target="_blank" class="news-link">中国空间站可以吃烧烤了</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8nzPWImCfS5" target="_blank" class="news-link">中国外交部又抡了“三板斧”，对外释放强烈信号</a> [6] <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8nz6Sg1URl7" target="_blank" class="news-link">馆长赴陆帮赖清德寻根，赖氏宗亲会：凡姓赖100%是中国人(图)</a> [11] <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7568642077798452772/" target="_blank" class="news-link">安世中国加速与国内晶圆企业对接</a> [26] <font color='grey'>- 09时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">2.04%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E8%BF%98%E5%8E%9F%E7%A6%8F%E5%BB%BA%E8%88%B0%E7%94%B5%E7%A3%81%E5%BC%B9%E5%B0%84%E5%85%A8%E8%BF%87%E7%A8%8B" target="_blank" class="news-link">AI还原福建舰电磁弹射全过程</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时40分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7568484009387232774/" target="_blank" class="news-link">轻奢女装self-portrait直播“翻车”</a> [19] <font color='grey'>- 09时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                <td class="count">1</td>
+                <td class="percentage">1.02%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7567925884716564543/" target="_blank" class="news-link">余承东：鸿蒙想走得远必须转变思维</a> [13] <font color='grey'>- 09时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">AMD</td>
+                <td class="count">1</td>
+                <td class="percentage">1.02%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2190065" target="_blank" class="news-link">加拿大量子计算公司宣布赴美上市计划，AMD将参与投资</a> [10] <font color='grey'>- 09时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">chatgpt Sam Altman openai</td>
+                <td class="count">1</td>
+                <td class="percentage">1.02%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2190043" target="_blank" class="news-link">亚马逊领千亿大单入伙 一文盘点OpenAI签了多少“愿景支票”</a> [12] <font color='grey'>- 09时40分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">新质生产力</td>
+                <td class="count">1</td>
+                <td class="percentage">1.02%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2189737" target="_blank" class="news-link">以绿色金融助推新质生产力发展 第五届财联社金融ESG论坛圆满举办</a> [13] <font color='grey'>- 09时40分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
