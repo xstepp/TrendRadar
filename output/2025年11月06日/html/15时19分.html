@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 57</p><p>生成时间: 2025-11-06 15:19:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">7.02%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8o3ahiOpYbf" target="_blank" class="news-link">爱沙尼亚外长怂恿：特朗普说了，中国对俄施压有用</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 15时19分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7569447514215026195/" target="_blank" class="news-link">中国恢复美国大豆进口有何考量</a> [15] <font color='grey'>- 15时19分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9C%AA%E6%9D%A53%E5%A4%A9+%E4%B8%AD%E5%9B%BD%E5%8C%97%E6%96%B9%E5%A4%A7%E9%83%A8%E6%9C%89%E6%9C%9B%E7%9C%8B%E5%88%B0%E6%9E%81%E5%85%89" target="_blank" class="news-link">未来3天 中国北方大部有望看到极光</a> [20] <font color='grey'>- 15时19分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%96%91%E5%9C%A8%E6%97%A5%E6%9C%AC%E5%A4%B1%E8%B8%AA%E4%B8%AD%E5%9B%BD%E7%99%BB%E5%B1%B1%E5%AE%A2%E9%81%97%E4%BD%93%E8%A2%AB%E6%89%BE%E5%88%B0" target="_blank" class="news-link">疑在日本失踪中国登山客遗体被找到</a> [28] <font color='grey'>- 15时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                <td class="count">2</td>
+                <td class="percentage">3.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2296483" target="_blank" class="news-link">华为Mate 70 Air评测</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 15时19分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7569394262991929363/" target="_blank" class="news-link">华为Mate 70 Air开启预售</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 15时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">美国</td>
+                <td class="count">2</td>
+                <td class="percentage">3.51%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8o3VGRna5PE" target="_blank" class="news-link">美媒：除稀土，美国仍有三大产业可被拿捏</a> [6] <font color='grey'>- 15时19分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8o3WPTSDF71" target="_blank" class="news-link">美国务院帮腔：明年中方办APEC，台湾得“平等”参与</a> [11] <font color='grey'>- 15时19分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
