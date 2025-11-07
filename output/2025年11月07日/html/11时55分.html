@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 50</p><p>生成时间: 2025-11-07 11:55:03</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">6.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%9C%80%E5%A5%BD%E5%90%83%E7%9A%84%E7%BE%8A%E8%82%89%E9%83%BD%E5%9C%A8%E8%BF%99%E5%BC%A0%E5%9C%B0%E5%9B%BE%E9%87%8C" target="_blank" class="news-link">中国最好吃的羊肉都在这张地图里</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7569767988555943474/" target="_blank" class="news-link">中国发行美元主权债券背后</a> [26] <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7569789486557564422/" target="_blank" class="news-link">为何更多国家要将黄金寄存中国</a> [30] <font color='grey'>- 11时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">京东 刘强东</td>
+                <td class="count">2</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E5%B0%91%E7%88%B7%E5%92%8C%E6%88%91%E4%BA%AC%E4%B8%9C%E6%96%B0%E7%95%AA%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26realpos%3D11%26pos%3D10%26flag%3D1%26q%3D%2523%25E5%25B0%2591%25E7%2588%25B7%25E5%2592%258C%25E6%2588%2591%25E4%25BA%25AC%25E4%25B8%259C%25E6%2596%25B0%25E7%2595%25AA%2523%26dgr%3D0%26filter_type%3Drealtimehot%26c_type%3D31%26stream_entry_id%3D31%26cate%3D5001%26band_rank%3D11%26display_time%3D1762487603%26pre_seqid%3D17624876030840247076534&amp;launchid=10000360-page_H5" target="_blank" class="news-link">少爷和我京东新番</a> [11] <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%88%98%E5%BC%BA%E4%B8%9C%E7%8E%B0%E8%BA%AB%E4%B9%8C%E9%95%87+%E8%B0%83%E4%BE%83%E8%AE%B0%E8%80%85%EF%BC%9A%E6%8B%8D%E5%A5%BD%E7%9C%8B%E7%82%B9" target="_blank" class="news-link">刘强东现身乌镇 调侃记者：拍好看点</a> [12] <font color='grey'>- 11时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">马斯克 特斯拉</td>
+                <td class="count">2</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7569466884635233843/" target="_blank" class="news-link">特斯拉人形机器人亮相进博会</a> [7] <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1970038336501547391" target="_blank" class="news-link">马斯克 1 万亿美元薪酬计划获批，要拿到 1 万亿需特斯拉公司市值超过 8.5 万亿美元，实现有多难？</a> [16] <font color='grey'>- 11时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">机器人</td>
+                <td class="count">2</td>
+                <td class="percentage">4.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31908695" target="_blank" class="news-link">何为进博｜从机器人到“空中专车”，科技成果向“新”见未来</a> [9] <font color='grey'>- 11时55分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31905745" target="_blank" class="news-link">小鹏机器人由真人扮演？客服：是仿人结构，就是一个机器人</a> [16] <font color='grey'>- 11时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">流浪地球 郭帆 三体 刘慈欣</td>
+                <td class="count">1</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1956361076871496312" target="_blank" class="news-link">刘慈欣为啥写死章北海？</a> [11] <font color='grey'>- 11时55分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                <td class="count">1</td>
+                <td class="percentage">2.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31909806" target="_blank" class="news-link">黄仁勋“炸鸡啤酒会面”背后：韩国欲跻身“AI三大强国”，但须借力美国</a> [10] <font color='grey'>- 11时55分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
