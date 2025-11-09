@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 20</p><p>生成时间: 2025-11-09 19:38:00</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国</td>
+                <td class="count">2</td>
+                <td class="percentage">10.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%AC%A7%E6%B4%B2%E5%A4%9A%E5%9B%BD%E5%82%AC%E7%BE%8E%E5%9B%BD%E8%B5%B6%E7%B4%A7%E2%80%9C%E8%BF%98%E9%92%B1%E2%80%9D" target="_blank" class="news-link">欧洲多国催美国赶紧“还钱”</a> [28] <font color='grey'>- 19时38分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E7%BE%8E%E5%9B%BD%E5%A5%B3%E5%AD%90%E6%97%A0%E5%AE%B6%E5%8F%AF%E5%BD%92%E5%83%8F%E8%99%AB%E5%AD%90%E4%B8%80%E6%A0%B7%E8%A0%95%E5%8A%A8%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26lcate%3D5001%26c_type%3D31%26realpos%3D30%26band_rank%3D30%26cate%3D5001%26dgr%3D0%26stream_entry_id%3D31%26pos%3D29%26flag%3D1%26q%3D%2523%25E7%25BE%258E%25E5%259B%25BD%25E5%25A5%25B3%25E5%25AD%2590%25E6%2597%25A0%25E5%25AE%25B6%25E5%258F%25AF%25E5%25BD%2592%25E5%2583%258F%25E8%2599%25AB%25E5%25AD%2590%25E4%25B8%2580%25E6%25A0%25B7%25E8%25A0%2595%25E5%258A%25A8%2523%26filter_type%3Drealtimehot%26display_time%3D1762687596%26pre_seqid%3D176268759685503310213155&amp;launchid=10000360-page_H5" target="_blank" class="news-link">美国女子无家可归像虫子一样蠕动</a> [30] <font color='grey'>- 19时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">5.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31927340" target="_blank" class="news-link">聆听“乌镇声音”：互联网大会上，企业家如何思考AI和未来</a> [20] <font color='grey'>- 19时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">5.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7570666231821241892/" target="_blank" class="news-link">高盛调研中国人形机器人供应链</a> [18] <font color='grey'>- 19时38分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
