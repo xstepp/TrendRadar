@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 40</p><p>生成时间: 2025-11-22 18:20:15</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">4</td>
+                <td class="percentage">10.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oUaO5bciAJ" target="_blank" class="news-link">“台湾有事，日本有事”为什么让中国人如此愤怒</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时20分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8oURAyHVOwV" target="_blank" class="news-link">中国航司大面积取消日本航班</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时20分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/264883776" target="_blank" class="news-link">中国历史上为什么没有殖民地或者为什么不热衷于对外求索建立殖民地？</a> [19] <font color='grey'>- 18时20分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%87%AA%E5%B7%B1%E6%8B%8D%E7%9A%84%E7%85%A7%E7%89%87%E4%BE%B5%E6%9D%83%E8%A7%86%E8%A7%89%E4%B8%AD%E5%9B%BD%EF%BC%9F%E6%A1%88%E4%BB%B6%E5%88%A4%E4%BA%86" target="_blank" class="news-link">自己拍的照片侵权视觉中国？案件判了</a> [21] <font color='grey'>- 18时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">2.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2314319" target="_blank" class="news-link">Gemini3适合用来编程吗</a> [26] <font color='grey'>- 18时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">汽车 自动驾驶</td>
+                <td class="count">1</td>
+                <td class="percentage">2.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1974778440168273303" target="_blank" class="news-link">理想汽车被曝大反思，承认产品节奏变慢，后续产品有望不再「套娃」，理想当前面临哪些困境？会带来哪些改变？</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">美国</td>
+                <td class="count">1</td>
+                <td class="percentage">2.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7575459876076260918/" target="_blank" class="news-link">评论员：乌克兰彻底被美国卖了</a> [17] <font color='grey'>- 18时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">2.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=0%E7%A7%91%E6%8A%80%E9%A2%84%E5%88%B6%E8%8F%9C%E5%A4%A7%E6%B3%95" target="_blank" class="news-link">0科技预制菜大法</a> [18] <font color='grey'>- 18时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">核能</td>
+                <td class="count">1</td>
+                <td class="percentage">2.5%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E9%95%BF%E6%9C%9F%E4%BB%A5%E6%A0%B8%E8%83%BD%E6%8E%A9%E7%9B%96%E6%A0%B8%E6%AD%A6%E8%83%BD%E5%8A%9B%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">日本长期以核能掩盖核武能力</a> [20] <font color='grey'>- 18时20分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
