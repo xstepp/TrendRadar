@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 21</p><p>生成时间: 2025-11-25 17:45:48</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                <td class="count">3</td>
+                <td class="percentage">14.29%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8D%8E%E4%B8%BA%E9%9D%9E%E5%87%A1%E5%A4%A7%E5%B8%88%E6%89%8B%E8%A1%A8%E5%94%AE%E4%BB%B724999%E5%85%83%23&amp;t=31&amp;band_rank=2&amp;Refer=top" target="_blank" class="news-link">华为非凡大师手表售价24999元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 17时45分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%B8%BF%E8%92%99%E4%BA%8C%E5%90%88%E4%B8%80%E6%80%A7%E8%83%BD%E6%9C%89%E5%A4%9A%E5%BC%BA%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">鸿蒙二合一性能有多强</a> [20] <font color='grey'>- 17时45分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%B8%BF%E8%92%99%E7%94%B5%E8%84%91%E4%B9%9F%E6%98%AF%E8%B6%85%E8%83%BD%E5%A4%A7%E8%84%91%23&amp;t=31&amp;band_rank=28&amp;Refer=top" target="_blank" class="news-link">鸿蒙电脑也是超能大脑</a> [28] <font color='grey'>- 17时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">9.52%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8F%88%E4%B8%80%E6%89%B9%E6%9E%9C%E8%94%AC%E9%80%81%E8%BE%BE%E4%B8%AD%E5%9B%BD%E7%A9%BA%E9%97%B4%E7%AB%99%23&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">又一批果蔬送达中国空间站</a> [10] <font color='grey'>- 17时45分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7576574890636148799/" target="_blank" class="news-link">中国男子在日本大阪机场坠亡</a> [23] <font color='grey'>- 17时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">4.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2210324" target="_blank" class="news-link">【每日收评】三大指数放量反弹！全市场连续两日逾百股涨超9%，AI概念股再度活跃</a> [13] <font color='grey'>- 17时45分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">芯片 光刻机</td>
+                <td class="count">1</td>
+                <td class="percentage">4.76%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1976380708353234914" target="_blank" class="news-link">摩尔线程中签率仅为 0.024%，创下了哪些 IPO 记录，其与沐曦股份有何区别，他们能重振芯片板块么？</a> [12] <font color='grey'>- 17时45分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
