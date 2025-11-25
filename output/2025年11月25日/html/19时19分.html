@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 34</p><p>生成时间: 2025-11-25 19:19:22</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                <td class="count">5</td>
+                <td class="percentage">14.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3760080" target="_blank" class="news-link">华为发布会直击：Mate 80系列4699元起、首搭载鸿蒙6系统，折叠屏Mate X7系列价格12999元起</a> [10] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2317178" target="_blank" class="news-link">华为Mate 80系列新品发布会</a> [19] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1976610994328445009" target="_blank" class="news-link">如何评价华为 Mate 80 系列首发搭载 A2A 系统级 AI 能力，对行业来说有何意义？</a> [19] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2317619" target="_blank" class="news-link">华为Mate 80系列怎么选</a> [26] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7576240061381918739/" target="_blank" class="news-link">华为折叠屏手机发货量超千万台</a> [27] <font color='grey'>- 19时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">5.88%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E4%B8%80%E7%94%B7%E5%AD%90%E5%9C%A8%E6%97%A5%E6%9C%AC%E5%85%B3%E8%A5%BF%E6%9C%BA%E5%9C%BA%E5%9D%A0%E4%BA%A1%23&amp;t=31&amp;band_rank=11&amp;Refer=top" target="_blank" class="news-link">中国一男子在日本关西机场坠亡</a> [11] <font color='grey'>- 19时19分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7576489239458857011/" target="_blank" class="news-link">台退将怒批高市早苗踩到中国红线</a> [29] <font color='grey'>- 19时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">小米 雷军 xiaomi</td>
+                <td class="count">1</td>
+                <td class="percentage">2.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%B0%8F%E7%B1%B3%E5%85%AC%E7%9B%8A%E5%9F%BA%E9%87%91%E4%BC%9A%E5%86%8D%E6%8D%90%E6%AC%BE5500%E4%B8%87%23&amp;t=31&amp;band_rank=27&amp;Refer=top" target="_blank" class="news-link">小米公益基金会再捐款5500万</a> [27] <font color='grey'>- 19时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">谷歌 google gemini deepmind</td>
+                <td class="count">1</td>
+                <td class="percentage">2.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2210371" target="_blank" class="news-link">【焦点复盘】创业板指高开高走涨近2%，谷歌产业链获持续热捧，福建本地股卷土重来</a> [12] <font color='grey'>- 19时19分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">科技</td>
+                <td class="count">1</td>
+                <td class="percentage">2.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2210428" target="_blank" class="news-link">【数据看盘】三家实力游资豪掷近4亿买入光库科技 多路资金激烈博弈巨人网络</a> [13] <font color='grey'>- 19时19分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
