@@ -1,0 +1,103 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 47</p><p>生成时间: 2025-11-30 12:10:41</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国</td>
+                <td class="count">3</td>
+                <td class="percentage">6.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3760391" target="_blank" class="news-link">业界大佬：全球铜都在流向美国，这是铜多头“一次大好机会”</a> [6] <font color='grey'>- 12时10分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E4%BC%9A%E4%B8%8E%E5%A7%94%E5%86%85%E7%91%9E%E6%8B%89%E7%88%86%E5%8F%91%E5%86%B2%E7%AA%81%E5%90%97" target="_blank" class="news-link">美国会与委内瑞拉爆发冲突吗</a> [24] <font color='grey'>- 12时10分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E8%A1%97%E5%A4%B4%E7%8E%B0%E9%A5%BF%E4%BA%86%E4%B9%88%E9%AA%91%E6%89%8B+%E5%BD%93%E4%BA%8B%E4%BA%BA%E5%9B%9E%E5%BA%94" target="_blank" class="news-link">美国街头现饿了么骑手 当事人回应</a> [28] <font color='grey'>- 12时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">2</td>
+                <td class="percentage">4.26%</td>
+                <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347601&amp;amp;topic_name=%E5%8E%86%E5%8F%B2%E9%87%8D%E6%BC%94%2C%E7%9F%B3%E7%A0%B4%E8%8C%82%E9%A2%84%E8%AD%A6%E6%97%A5%E6%9C%AC%E5%81%B7%E8%A2%AD%E4%B8%AD%E5%9B%BD" target="_blank" class="news-link">历史重演,石破茂预警日本偷袭中国</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 12时10分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3760390" target="_blank" class="news-link">中国11月官方制造业PMI升至49.2，非制造业PMI小幅回落</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 12时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                <td class="count">1</td>
+                <td class="percentage">2.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8D%8E%E4%B8%BA%E7%A7%B0Mate80%E6%98%BE%E7%A4%BA5A%E4%B8%8D%E6%98%AF5GA%23&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">华为称Mate80显示5A不是5GA</a> [10] <font color='grey'>- 12时10分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">2.13%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://tech.ifeng.com/c/8ohHBVsgmTp" target="_blank" class="news-link">美企质疑中国机器人厂商发布造假视频，中企回应</a> [11] <font color='grey'>- 12时10分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
