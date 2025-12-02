@@ -1,0 +1,119 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 45</p><p>生成时间: 2025-12-02 17:28:01</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">华为 任正非 鸿蒙 HarmonyOS</td>
+                <td class="count">1</td>
+                <td class="percentage">2.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7578293626367770666/" target="_blank" class="news-link">华为Mate 80引入MeeTime APP功能</a> [26] <font color='grey'>- 17时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">小米 雷军 xiaomi</td>
+                <td class="count">1</td>
+                <td class="percentage">2.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%B0%8F%E7%B1%B3%E5%9B%9E%E5%BA%94%E7%94%B7%E5%AD%90%E4%B9%B0%E5%B0%8F%E7%B1%B3YU7%E6%94%B6%E5%88%B0%E8%BF%90%E6%8D%9F%E8%BD%A6%23&amp;t=31&amp;band_rank=25&amp;Refer=top" target="_blank" class="news-link">小米回应男子买小米YU7收到运损车</a> [25] <font color='grey'>- 17时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">马斯克 特斯拉</td>
+                <td class="count">1</td>
+                <td class="percentage">2.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%A9%AC%E6%96%AF%E5%85%8B%E5%AE%98%E5%AE%A3%E9%AB%98%E7%AE%A1%E5%A5%B3%E5%8F%8B%23&amp;t=31&amp;band_rank=26&amp;Refer=top" target="_blank" class="news-link">马斯克官宣高管女友</a> [26] <font color='grey'>- 17时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">机器人</td>
+                <td class="count">1</td>
+                <td class="percentage">2.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2216817" target="_blank" class="news-link">新的万亿市场需求即将浮现！大摩：人形机器人芯片市场规模将加速扩张</a> [12] <font color='grey'>- 17时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">国产 中国</td>
+                <td class="count">1</td>
+                <td class="percentage">2.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2216979" target="_blank" class="news-link">中国药品价格登记系统今日上线 解决创新药出海“无锚”痛点</a> [10] <font color='grey'>- 17时28分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">美国</td>
+                <td class="count">1</td>
+                <td class="percentage">2.22%</td>
+                <td class="titles"><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8ol45htnz8G" target="_blank" class="news-link">印度学者：1962年中印边境战争背后，可能是美国在煽风点火</a> [10] <font color='grey'>- 17时28分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
